@@ -1,0 +1,44 @@
+nav {
+  padding: 2rem;
+
+  ul {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+
+    li {
+      font-size: $size-l;
+      font-weight: $weight-bold;
+
+      &:first-child {
+        margin-right: auto;
+      }
+
+      & + li {
+        margin-left: 2.5rem;
+      }
+
+      a {
+        transition: color 0.2s;
+
+        &:hover {
+          color: rgba($color-black, 0.6);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  nav {
+    padding: 1rem;
+
+    ul {
+      justify-content: center;
+
+      li + li {
+        margin-left: 1rem;
+      }
+    }
+  }
+}

@@ -1,12 +1,14 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+@import 'reset';
+@import 'variables';
+@import 'nav';
+
+html {
+  background: rgba($color-black, 0.1);
 }
 
-img {
-  max-width: 300px;
+body {
+  background: white;
+  font-family: $font-default;
+  margin: 0 auto;
+  max-width: $site-width;
 }
