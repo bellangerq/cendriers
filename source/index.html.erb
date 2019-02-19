@@ -1,0 +1,13 @@
+<h1>Cendriers</h1>
+
+<ul>
+<% data.productss.each do |p| %>
+<li>
+  <article>
+    <img src="<%= p[1].image %>" alt="<%= p[1].title %>">
+    <h2><%= p[1].title %></h2>
+    <p><%= p[1].description %></p>
+  </article>
+</li>
+<% end %>
+</ul>
