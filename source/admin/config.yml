@@ -20,7 +20,6 @@ collections:
       - {label: Image, name: image, widget: image, required: true}
   - name: settings
     label: Paramètres
-    create: true
     format: yml
     extension: yml
     files:
@@ -35,7 +34,7 @@ collections:
               - {label: Texte, name: label, widget: string}
               - {label: URL, name: href, widget: string}
   - name: page
-    label: Pages
+    label: Page
     create: true
     format: yml
     extension: yml
@@ -44,10 +43,15 @@ collections:
         label: Accueil
         name: home
         fields:
-          - {label: Titre, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
-          - label: Lien
-            name: link
+          - label: hero
+            name: Hero
+            widget: object
             fields:
-              - {label: Texte, name: label, widget: string}
-              - {label: URL, name: href, widget: string}
+              - {label: Titre, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+              - label: Lien
+                name: link
+                widget: object
+                fields:
+                  - {label: Texte, name: label, widget: string}
+                  - {label: URL, name: href, widget: string}
