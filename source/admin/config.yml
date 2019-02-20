@@ -30,4 +30,18 @@ collections:
             widget: list
             fields:
               - {label: Texte, name: label, widget: string}
-              - {label: Url, name: href, widget: string}
+              - {label: URL, name: href, widget: string}
+  - name: page
+    label: Pages
+    files:
+      - file: data/pages/index.yml
+        label: Accueil
+        name: home
+        fields:
+          - {label: Titre, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - label: Lien
+            name: link
+            fields:
+              - {label: Texte, name: label, widget: string}
+              - {label: URL, name: href, widget: string}

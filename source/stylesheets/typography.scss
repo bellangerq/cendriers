@@ -1,0 +1,12 @@
+h1 {
+  font-size: $size-xl;
+}
+
+a.btn {
+  background: $color-secondary;
+  border: 1px solid $color-secondary;
+  border-radius: $radius-m;
+  color: $color-white;
+  font-weight: $weight-bold;
+  padding: 1rem 1.5rem;
+}

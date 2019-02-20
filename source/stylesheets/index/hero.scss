@@ -1,0 +1,47 @@
+section {
+  overflow: hidden;
+  position: relative;
+
+  .wrapper {
+    display: grid;
+    display: -ms-grid;
+    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    position: relative;
+    z-index: 1;
+
+    .content {
+      padding-top: 2rem;
+
+      h1 {
+        margin-bottom: 3rem;
+      }
+    }
+
+    img {
+      align-self: center;
+    }
+  }
+
+  svg {
+    bottom: 0;
+    height: 100%;
+    position: absolute;
+    fill: $color-main;
+    width: 100%;
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  section {
+    .wrapper {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+
+      .content {
+        text-align: center;
+      }
+    }
+  }
+}
