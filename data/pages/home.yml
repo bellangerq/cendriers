@@ -1,6 +1,6 @@
-hero:
-  title: 'Découvrez XXX : votre nouveau cendrier de poche fait maison'
-  link:
-    label: Commandez le vôtre
-    href: /
+Hero:
   image: /images/cendriers.png
+  link:
+    href: '#'
+    label: Commandez le vôtre
+  title: 'Découvrez XXX : votre nouveau cendrier de poche fait maison'
