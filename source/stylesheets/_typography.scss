@@ -9,4 +9,10 @@ a.btn {
   color: $color-white;
   font-weight: $weight-bold;
   padding: 1rem 1.5rem;
+  transition: color 0.2s, background 0.2s;
+
+  &:hover {
+    background: $color-white;
+    color: $color-secondary;
+  }
 }
