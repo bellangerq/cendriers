@@ -20,6 +20,9 @@ collections:
       - {label: Image, name: image, widget: image, required: true}
   - name: settings
     label: Paramètres
+    create: true
+    format: yml
+    extension: yml
     files:
       - file: data/settings/navigation.yml
         label: Menu
@@ -33,6 +36,9 @@ collections:
               - {label: URL, name: href, widget: string}
   - name: page
     label: Pages
+    create: true
+    format: yml
+    extension: yml
     files:
       - file: data/pages/index.yml
         label: Accueil
