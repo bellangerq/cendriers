@@ -54,3 +54,16 @@ collections:
                 fields:
                   - {label: Texte, name: label, widget: string}
                   - {label: URL, name: href, widget: string}
+          - label: Présentation
+            name: presentation
+            widget: object
+            fields:
+              - {label: Titre, name: title, widget: string}
+              - {label: Description, name: description, widget: markdown}
+              - label: Avantages
+                name: features
+                widget: list
+                fields:
+                  - {label: Titre, name: title, widget: string}
+                  - {label: Description, name: description, widget: markdown}
+                  - {label: Icône, name: icon, widget: image}

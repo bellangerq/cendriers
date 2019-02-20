@@ -3,4 +3,21 @@ hero:
   link:
     href: '#'
     label: Commandez le vôtre
-  title: 'Découvrez XXX : votre nouveau cendrier de poche fait maison'
+  title: "Découvrez XXX : votre nouveau cendrier de poche fait maison"
+
+presentation:
+  title: 'Un cendrier de poche ?'
+  description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+  features:
+    - name: civility
+      title: Civilité
+      description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+      icon: /images/icon.svg
+    - name: ecology
+      title: Écologie
+      description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+      icon: /images/icon.svg
+    - name: practicality
+      title: Praticité
+      description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+      icon: /images/icon.svg

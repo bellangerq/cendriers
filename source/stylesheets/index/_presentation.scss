@@ -1,0 +1,50 @@
+.index-presentation {
+  background: linear-gradient($color-main, $color-white);
+
+  .wrapper {
+    padding: 3rem;
+    text-align: center;
+
+    > p {
+      margin: 1.5rem auto 0;
+      max-width: 30rem;
+    }
+
+    ul {
+      display: grid;
+      display: -ms-grid;
+      grid-column-gap: 5rem;
+      grid-row-gap: 3rem;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 3rem;
+
+      li {
+        text-align: left;
+
+        img {
+          width: 3rem;
+        }
+
+        h3 {
+          margin-top: 1rem;
+        }
+
+        p {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .index-presentation {
+    .wrapper {
+      padding: 1rem;
+
+      ul {
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+}

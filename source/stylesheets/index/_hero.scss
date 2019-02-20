@@ -1,4 +1,4 @@
-section {
+.index-hero {
   overflow: hidden;
   position: relative;
 
@@ -34,7 +34,7 @@ section {
 }
 
 @media (max-width: $breakpoint-mobile) {
-  section {
+  .index-hero {
     .wrapper {
       grid-template-columns: 1fr;
       padding: 1rem;
