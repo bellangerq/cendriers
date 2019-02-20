@@ -1,7 +1,7 @@
 <nav>
   <ul>
-    <% data.settings.navigation.items.each do |i| %>
-    <li><a href="<%= i.href %>"><%= i.label %></a></li>
+    <% data.settings.navigation.links.each do |l| %>
+    <li><a href="<%= l.href %>"><%= l.label %></a></li>
     <% end %>
   </ul>
 </nav>

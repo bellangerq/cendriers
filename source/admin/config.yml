@@ -28,7 +28,7 @@ collections:
         name: navigation
         fields:
           - label: Menu
-            name: navigation
+            name: links
             widget: list
             fields:
               - {label: Texte, name: label, widget: string}
