@@ -34,8 +34,7 @@ collections:
               - {label: Texte, name: label, widget: string}
               - {label: URL, name: href, widget: string}
   - name: page
-    label: Page
-    create: true
+    label: Pages
     format: yml
     extension: yml
     files:
