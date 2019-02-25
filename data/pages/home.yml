@@ -1,28 +1,37 @@
 hero:
   image: /images/cendriers.png
-  title: "Découvrez XXX : votre nouveau cendrier de poche fait maison"
-
+  title: 'Découvrez XXX : votre nouveau cendrier de poche fait maison'
 presentation:
-  title: Un cendrier de poche ?
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
+    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
+    risus commodo. Aliquam.
   features:
-    - name: civility
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar,
+        ut efficitur risus commodo. Aliquam.
+      icon: /images/icon.svg
       title: Civilité
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar,
+        ut efficitur risus commodo. Aliquam.
       icon: /images/icon.svg
-    - name: ecology
       title: Écologie
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar,
+        ut efficitur risus commodo. Aliquam.
       icon: /images/icon.svg
-    - name: practicality
       title: Praticité
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
-      icon: /images/icon.svg
-
+  title: Un cendrier de poche ?
 products:
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
+    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
+    risus commodo. Aliquam.
   title: À chacun sa finition
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
-
 cta:
-  href: https://gumroad.com/l/KHIRL
-  label: Acheter
+  href: 'https://gumroad.com/l/KHIRL'
+  label: Commander
