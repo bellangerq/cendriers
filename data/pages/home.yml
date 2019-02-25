@@ -1,8 +1,5 @@
 hero:
   image: /images/cendriers.png
-  link:
-    href: '#'
-    label: Commandez le vôtre
   title: "Découvrez XXX : votre nouveau cendrier de poche fait maison"
 
 presentation:
@@ -25,3 +22,7 @@ presentation:
 products:
   title: À chacun sa finition
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
+
+cta:
+  href: https://gumroad.com/l/KHIRL
+  label: Acheter

@@ -2,11 +2,10 @@
 @import 'variables';
 @import 'typography';
 
-@import 'shared/nav';
-
 @import 'index/hero';
 @import 'index/presentation';
 @import 'index/products';
+@import 'index/cta';
 
 html {
   background: rgba($color-black, 0.1);
@@ -17,5 +16,4 @@ body {
   font-family: $font-default;
   margin: 0 auto;
   max-width: $site-width;
-  padding-bottom: 1rem;
 }
