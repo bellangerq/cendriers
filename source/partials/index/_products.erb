@@ -1,0 +1,22 @@
+<% content = data.pages.home.products %>
+
+<section class="index-products">
+  <div class="heading">
+    <h2><%= content.title %></h2>
+    <p class="large"><%= content.description %></p>
+  </div>
+  <ul>
+    <% data.products.each do |p| %>
+    <% p = p[1] %>
+    <li style="--color: <%= p.color %>">
+      <div class="image">
+        <img src="<%= p.image %>" alt="<%= p.title %>" />
+      </div>
+      <div class="info">
+        <h3><%= p.title %> <span role="img" aria-hidden="true"><%= p.emoji %></span></h3>
+        <p><%= p.description %></p>
+      </div>
+    </li>
+    <% end %>
+  </ul>
+</section>

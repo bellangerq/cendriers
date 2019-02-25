@@ -1,5 +1,5 @@
 nav {
-  padding: 2rem;
+  padding: 3rem;
 
   ul {
     align-items: center;
@@ -19,6 +19,7 @@ nav {
       }
 
       a {
+        text-decoration: none;
         transition: color 0.2s;
 
         &:hover {

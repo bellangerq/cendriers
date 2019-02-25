@@ -27,6 +27,7 @@ a.btn {
   color: $color-white;
   font-weight: $weight-bold;
   padding: 1rem 1.5rem;
+  text-decoration: none;
   transition: color 0.2s, background 0.2s;
 
   &:hover {

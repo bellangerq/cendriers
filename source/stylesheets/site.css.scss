@@ -6,6 +6,7 @@
 
 @import 'index/hero';
 @import 'index/presentation';
+@import 'index/products';
 
 html {
   background: rgba($color-black, 0.1);
@@ -16,4 +17,5 @@ body {
   font-family: $font-default;
   margin: 0 auto;
   max-width: $site-width;
+  padding-bottom: 1rem;
 }

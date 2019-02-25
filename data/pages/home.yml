@@ -6,18 +6,22 @@ hero:
   title: "Découvrez XXX : votre nouveau cendrier de poche fait maison"
 
 presentation:
-  title: 'Un cendrier de poche ?'
-  description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+  title: Un cendrier de poche ?
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
   features:
     - name: civility
       title: Civilité
-      description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
       icon: /images/icon.svg
     - name: ecology
       title: Écologie
-      description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
       icon: /images/icon.svg
     - name: practicality
       title: Praticité
-      description: "Get all the tools you need to deploy and manage your site. Replace your hosting infrastructure, continuous integration, and deployment pipeline with a single workflow."
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
       icon: /images/icon.svg
+
+products:
+  title: À chacun sa finition
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus commodo. Aliquam."
