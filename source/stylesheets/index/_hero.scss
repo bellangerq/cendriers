@@ -5,20 +5,12 @@
   .wrapper {
     display: grid;
     display: -ms-grid;
-    grid-gap: 5rem;
+    grid-column-gap: 5rem;
     grid-template-columns: 1fr 1fr;
     padding: 3rem;
     align-items: center;
     position: relative;
     z-index: 1;
-
-    .content {
-      padding-top: 2rem;
-
-      h1 {
-        margin-bottom: 3rem;
-      }
-    }
   }
 
   svg {
@@ -33,10 +25,11 @@
 @media (max-width: $breakpoint-mobile) {
   .index-hero {
     .wrapper {
+      grid-row-gap: 3rem;
       grid-template-columns: 1fr;
       padding: 1rem;
 
-      .content {
+      h1 {
         text-align: center;
       }
     }
