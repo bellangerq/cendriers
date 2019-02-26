@@ -1,20 +1,19 @@
 hero:
   image: /images/cendriers.png
   title: Adoptez un joli cendrier de poche fait maison !
-
 presentation:
-  title: Comment c'est fait
+  caption: 'Odette, apprenti couturière.'
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
-    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
-    risus commodo. Aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
-    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
-    risus commodo. Aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
-    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
-    risus commodo. Aliquam.
+    Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. Quisque
+    porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut
+    efficitur risus commodo. Aliquam. Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis
+    neque vel ex pulvinar, ut efficitur risus commodo. Aliquam. Lorem ipsum
+    dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex
+    ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus
+    commodo. Aliquam.
   image: /images/odette.jpg
-  caption: Odette, apprenti couturière.
-
+  title: Comment c'est fait
 reasons:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
