@@ -3,13 +3,13 @@
 <section class="index-reasons">
   <div class="wrapper">
     <h2><%= content.title %></h2>
-    <p class="large"><%= markdown(content.description) %></p>
+    <p class="large"><%= content.description %></p>
     <ul>
       <% content.features.each do |f| %>
       <li>
         <img src="<%= f.icon %>" alt="">
         <h3><%= f.title %></h3>
-        <p><%= markdown(f.description) %></p>
+        <p><%= f.description %></p>
       </li>
       <% end %>
     </ul>

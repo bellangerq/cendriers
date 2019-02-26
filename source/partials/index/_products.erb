@@ -3,7 +3,7 @@
 <section class="index-products">
   <div class="heading">
     <h2><%= content.title %></h2>
-    <p class="large"><%= markdown(content.description) %></p>
+    <p class="large"><%= content.description %></p>
   </div>
   <ul>
     <% data.products.each do |p| %>
@@ -14,7 +14,7 @@
       </div>
       <div class="info">
         <h3><%= p.title %> <span role="img" aria-hidden="true"><%= p.emoji %></span></h3>
-        <p><%= markdown(p.description) %></p>
+        <p><%= p.description %></p>
       </div>
     </li>
     <% end %>
