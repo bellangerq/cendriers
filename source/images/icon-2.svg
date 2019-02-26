@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <circle id="Oval" stroke="#705D56" stroke-width="50" cx="250" cy="250" r="225"></circle>
-    </g>
-</svg>
+<svg height="500" viewBox="0 0 500 500" width="500" xmlns="http://www.w3.org/2000/svg"><circle cx="250" cy="250" fill="none" r="225" stroke="#705d56" stroke-width="50"/></svg>
