@@ -1,17 +1,45 @@
 hero:
   image: /images/cendriers.png
   title: Adoptez un joli cendrier de poche fait maison !
+
 presentation:
-  description: >-
-    Lorem ipsum dolor sit amet, **consectetur adipiscing** elit. _Quisque
-    porttitor_ laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut
-    efficitur risus commodo. Aliquam. Lorem ipsum dolor `sit amet`, consectetur
-    adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis
-    neque vel ex pulvinar, ut efficitur risus commodo. Aliquam. Lorem ipsum
-    dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex
-    ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus
-    commodo. Aliquam.
   title: Comment c'est fait
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
+    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
+    risus commodo. Aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
+    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
+    risus commodo. Aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
+    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
+    risus commodo. Aliquam.
+  image: /images/odette.jpg
+  caption: Odette, apprenti couturière.
+
+reasons:
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
+    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
+    risus commodo. Aliquam.
+  features:
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar,
+        ut efficitur risus commodo. Aliquam.
+      icon: /images/icon-1.svg
+      title: Civilité
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar,
+        ut efficitur risus commodo. Aliquam.
+      icon: /images/icon-2.svg
+      title: Écologie
+    - description: >-
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+        porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar,
+        ut efficitur risus commodo. Aliquam.
+      icon: /images/icon-3.svg
+      title: Praticité
+  title: Un cendrier de poche ?
 products:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
