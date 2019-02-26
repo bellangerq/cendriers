@@ -7,26 +7,28 @@
   margin: 0 auto;
   padding: 5rem 3rem;
 
-  figure {
-    border-radius: $radius-m;
-    box-shadow: 0 0 1px 0 rgba($color-black, 0.45);
-    margin: 0 auto;
-    text-align: center;
-    transform: rotate(-5deg);
-    width: 80%;
+  .image {
+    figure {
+      border-radius: $radius-m;
+      box-shadow: 0 0 1px 0 rgba($color-black, 0.45);
+      margin: 0 auto;
+      text-align: center;
+      transform: rotate(-5deg);
+      width: 80%;
 
-    img {
-      border: 0.5rem solid $color-white;
-      border-radius: $radius-m $radius-m 0 0;
-    }
+      img {
+        border: 0.5rem solid $color-white;
+        border-radius: $radius-m $radius-m 0 0;
+      }
 
-    figcaption {
-      background: $color-white;
-      border-radius: 0 0 $radius-m $radius-m;
-      font-family: serif;
-      font-style: italic;
-      margin-top: -0.5rem;
-      padding: 0.5rem 1rem 0.75rem;
+      figcaption {
+        background: $color-white;
+        border-radius: 0 0 $radius-m $radius-m;
+        font-family: serif;
+        font-style: italic;
+        margin-top: -0.5rem;
+        padding: 0.5rem 1rem 0.75rem;
+      }
     }
   }
 
