@@ -6,12 +6,14 @@ presentation:
   description: >-
     Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. Quisque
     porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut
-    efficitur risus commodo. Aliquam. Lorem ipsum dolor sit amet, consectetur
-    adipiscing elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis
-    neque vel ex pulvinar, ut efficitur risus commodo. Aliquam. Lorem ipsum
-    dolor sit amet, consectetur adipiscing elit. Quisque porttitor laoreet ex
-    ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur risus
-    commodo. Aliquam.
+    efficitur risus commodo. Aliquam.
+
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
+    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
+    risus commodo. Aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing
+    elit. Quisque porttitor laoreet ex ultricies tempus. Sed mattis neque vel ex
+    pulvinar, ut efficitur risus commodo. Aliquam.
   image: /images/odette.jpg
   title: Comment c'est fait
 reasons:
