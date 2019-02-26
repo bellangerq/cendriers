@@ -33,8 +33,8 @@ collections:
             fields:
               - {label: Titre, name: title, widget: string}
               - {label: Image, name: image, widget: image}
-          - label: Présentation
-            name: presentation
+          - label: Raisons
+            name: reasons
             widget: object
             fields:
               - {label: Titre, name: title, widget: string}

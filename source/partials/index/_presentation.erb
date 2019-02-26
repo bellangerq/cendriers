@@ -1,17 +1,12 @@
 <% content = data.pages.home.presentation %>
 
 <section class="index-presentation">
-  <div class="wrapper">
+  <figure>
+    <img src="<%= content.image %>" alt="<%= content.caption %>" />
+    <figcaption><%= content.caption %></figcaption>
+  </figure>
+  <div class="info">
     <h2><%= content.title %></h2>
     <p class="large"><%= content.description %></p>
-    <ul>
-      <% content.features.each do |f| %>
-      <li>
-        <img src="<%= f.icon %>" alt="">
-        <h3><%= f.title %></h3>
-        <p><%= f.description %></p>
-      </li>
-      <% end %>
-    </ul>
   </div>
 </section>
