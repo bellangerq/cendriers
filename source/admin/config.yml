@@ -13,11 +13,11 @@ collections:
     format: yml
     extension: yml
     fields:
-      - {label: Titre, name: title, widget: string, required: true}
-      - {label: Description, name: description, widget: markdown, required: true}
-      - {label: Emoji, name: emoji, widget: string, required: true}
-      - {label: Couleur, name: color, widget: string, required: true}
-      - {label: Image, name: image, widget: image, required: true}
+      - {label: Titre, name: title, widget: string}
+      - {label: Description, name: description, widget: markdown}
+      - {label: Emoji, name: emoji, widget: string}
+      - {label: Couleur, name: color, widget: string}
+      - {label: Image, name: image, widget: image}
   - name: page
     label: Pages
     format: yml
@@ -33,6 +33,14 @@ collections:
             fields:
               - {label: Titre, name: title, widget: string}
               - {label: Image, name: image, widget: image}
+          - labe: Présentation
+            name: presentation
+            widget: object
+            fields:
+              - {label: Titre, name: title, widget: string}
+              - {label: Description, name: description, widget: markdown}
+              - {label: Image, name: image, widget: image}
+              - {label: Légende, name: caption, widget: string}
           - label: Raisons
             name: reasons
             widget: object
