@@ -1,6 +1,8 @@
 .index-reasons {
+  margin: 5rem 0;
+  padding: 0 3rem;
+
   .wrapper {
-    padding: 5rem 3rem;
     text-align: center;
 
     > p {
@@ -35,10 +37,10 @@
 }
 
 @media (max-width: $breakpoint-mobile) {
-  .index-presentation {
-    .wrapper {
-      padding: 1rem;
+  .index-reasons {
+    padding: 0 1rem;
 
+    .wrapper {
       ul {
         grid-template-columns: 1fr;
       }
