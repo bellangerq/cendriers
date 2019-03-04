@@ -1,6 +1,5 @@
 .index-products {
-  margin: 2rem auto 5rem 0;
-  padding: 0 3rem;
+  padding: 5rem 3rem;
   text-align: center;
 
   .heading {
@@ -43,6 +42,6 @@
 
 @media (max-width: $breakpoint-mobile) {
   .index-products {
-    padding: 0 1rem;
+    padding: 3rem 1rem;
   }
 }

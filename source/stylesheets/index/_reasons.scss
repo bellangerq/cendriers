@@ -1,6 +1,6 @@
 .index-reasons {
-  margin: 5rem 0;
-  padding: 0 3rem;
+  background: linear-gradient($color-white, rgba($color-main, 0.8));
+  padding: 5rem 3rem;
 
   .wrapper {
     text-align: center;
@@ -38,7 +38,7 @@
 
 @media (max-width: $breakpoint-mobile) {
   .index-reasons {
-    padding: 0 1rem;
+    padding: 3rem 1rem;
 
     .wrapper {
       ul {

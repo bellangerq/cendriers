@@ -11,27 +11,15 @@ h3 {
   font-weight: $weight-semibold;
 }
 
+h1, h2, h3 {
+  font-family: 'PT Serif', serif;
+}
+
 p {
   font-size: $size-m;
   line-height: 1.5rem;
 
   &.large {
     font-size: $size-l;
-  }
-}
-
-a.btn {
-  background: $color-secondary;
-  border: 1px solid $color-secondary;
-  border-radius: $radius-m;
-  color: $color-white;
-  font-weight: $weight-bold;
-  padding: 1rem 1.5rem;
-  text-decoration: none;
-  transition: color 0.2s, background 0.2s;
-
-  &:hover {
-    background: $color-white;
-    color: $color-secondary;
   }
 }

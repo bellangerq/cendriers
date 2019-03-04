@@ -1,0 +1,19 @@
+.index-pictures {
+  display: flex;
+  flex-wrap: wrap;
+
+  img {
+    max-height: 25rem;
+    object-fit: cover;
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: $breakpoint-mobile) {
+  .index-pictures {
+    img {
+      max-height: 20rem;
+      width: 100%;
+    }
+  }
+}

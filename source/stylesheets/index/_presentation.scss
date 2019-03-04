@@ -1,13 +1,12 @@
 .index-presentation {
-  background: linear-gradient($color-main, $color-white);
-  display: grid;
-  display: -ms-grid;
-  grid-column-gap: 7rem;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
+  background: linear-gradient($color-main, rgba($color-main, 0.5));
+  display: flex;
+  justify-content: space-between;
   padding: 5rem 3rem;
 
   .image {
+    margin-right: 7rem;
+
     figure {
       border-radius: $radius-m;
       box-shadow: 0 0 1px 0 rgba($color-black, 0.45);
@@ -41,12 +40,11 @@
 
 @media (max-width: $breakpoint-mobile) {
   .index-presentation {
-    grid-row-gap: 3rem;
-    grid-template-columns: 1fr;
+    flex-wrap: wrap-reverse;
     padding: 5rem 1rem;
 
-    figure {
-      order: 2;
+    .image {
+      margin: 4rem 0 0;
     }
 
     .info {

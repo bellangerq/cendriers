@@ -1,24 +1,14 @@
 .index-hero {
+  background: $color-white;
   overflow: hidden;
-  position: relative;
 
   .wrapper {
     display: grid;
     display: -ms-grid;
     grid-column-gap: 5rem;
     grid-template-columns: 1fr 1fr;
-    padding: 3rem;
+    padding: 11rem 3rem 7rem;
     align-items: center;
-    position: relative;
-    z-index: 1;
-  }
-
-  svg {
-    bottom: 0;
-    height: 100%;
-    position: absolute;
-    fill: $color-main;
-    width: 100%;
   }
 }
 
@@ -27,7 +17,7 @@
     .wrapper {
       grid-row-gap: 3rem;
       grid-template-columns: 1fr;
-      padding: 1rem;
+      padding: 5rem 1rem 1rem;
 
       h1 {
         text-align: center;

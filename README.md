@@ -23,3 +23,10 @@ middleman server
 ## Deployment
 
 The website is hosted on [Netlify](https://netlify.com). Every commit on `master` branch triggers a new deployment.
+
+
+## To do
+
+- Checkmark instead of icons
+- Centered heading with logo only
+- Serif font
