@@ -41,10 +41,9 @@ reasons:
   title: Un cendrier de poche ?
 products:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
-    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
-    risus commodo. Aliquam.
-  title: À chacun sa finition
+    À chacun sa finition : choisissez le tissu à partir duquel sera confectionné
+    votre cendrier. Alors, vous l'aimez comment ?
+  title: Vanille ou chocolat ?
 cta:
   href: 'https://gumroad.com/l/KHIRL'
   label: Commander
