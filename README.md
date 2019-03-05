@@ -32,7 +32,7 @@ The website is hosted on [Netlify](https://netlify.com). Every commit on `master
 - [ ] Guillemets around hero picture
 - [x] Style hero paragraph
 - [ ] Sample pictures
-- [ ] Center text + arrow CTA
+- [x] Center text + arrow CTA
 - [ ] Import "PT Serif" font
 - [ ] Set content on Netlify CMS
 - [ ] Clean CSS

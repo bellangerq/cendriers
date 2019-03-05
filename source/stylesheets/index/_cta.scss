@@ -10,17 +10,18 @@
     padding: 5rem;
     text-decoration: none;
 
-    &:hover {
-      span {
-        opacity: 1;
-        transform: translate3d(0.5rem, 0, 0);
-      }
-    }
-
-    span {
+    &::after {
+      content: '→';
       display: inline-block;
       opacity: 0;
       transition: opacity 0.2s, transform 0.2s;
+    }
+
+    &:hover {
+      &::after {
+        opacity: 1;
+        transform: translate3d(0.5rem, 0, 0);
+      }
     }
   }
 }
