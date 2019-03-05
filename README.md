@@ -29,11 +29,10 @@ The website is hosted on [Netlify](https://netlify.com). Every commit on `master
 
 - [x] Rotate header icon on hover / focus
 - [x] Checkmark before reasons titles
-- [ ] Guillemets around hero picture
 - [x] Style hero paragraph
-- [ ] Sample pictures
 - [x] Center text + arrow CTA
-- [ ] Import "PT Serif" font
+- [x] Import "PT Serif" font
 - [ ] Set content on Netlify CMS
+- [ ] Guillemets around hero picture
 - [ ] Clean CSS
 - [ ] Fix header width
