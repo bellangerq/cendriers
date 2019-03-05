@@ -1,6 +1,8 @@
 hero:
   image: /images/cendriers.png
   title: Adoptez un joli cendrier de poche fait maison !
+  description: >-
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e.
 presentation:
   caption: 'Odette, apprentie couturière.'
   description: >-
@@ -25,20 +27,24 @@ reasons:
     - description: >-
         Jeter son mégot par terre, c'est un peu nul comme attitude. Alors que
         remplir son cendrier pour le jeter dans une poubelle, c'est mieux !
-      icon: /images/icon-2.svg
       title: Écologique
     - description: >-
         Outre le fait que jeter son mégot par terre est passible d'amende, ça
         n'est jamais très agréable pour soi et pour les autres d'en trouver dans
         la rue ou ailleurs.
-      icon: /images/icon-1.svg
       title: Responsable
     - description: >-
         On se retrouve bien embêté quand on a pas de quoi jeter son mégot.
         L'avantage d'un cendrier de poche, c'est qu'on l'a toujours sur soi !
-      icon: /images/icon-3.svg
       title: Pratique
   title: Un cendrier de poche ?
+pictures:
+  - image: https://source.unsplash.com/random
+    title: 'Lorem ipsum'
+  - image: https://source.unsplash.com/random
+    title: 'Lorem ipsum'
+  - image: https://source.unsplash.com/random
+    title: 'Lorem ipsum'
 products:
   description: >-
     À chacun sa finition : choisissez le tissu à partir duquel sera confectionné

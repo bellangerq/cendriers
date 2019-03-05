@@ -17,13 +17,18 @@ header {
     display: inline-flex;
     text-decoration: none;
 
-    &:hover {
+    &:hover, &:focus {
       text-decoration: underline;
+
+      svg {
+        transform: rotate(-10deg);
+      }
     }
 
     svg {
       height: 2rem;
       margin-right: 1rem;
+      transition: transform 0.2s;
       width: 2rem;
     }
   }

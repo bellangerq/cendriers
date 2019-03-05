@@ -27,6 +27,13 @@ The website is hosted on [Netlify](https://netlify.com). Every commit on `master
 
 ## To do
 
-- Checkmark instead of icons
-- Centered heading with logo only
-- Serif font
+- [ ] Rotate header icon on hover / focus
+- [ ] Checkmark before reasons titles
+- [ ] Guillemets around hero picture
+- [ ] Style hero paragraph
+- [ ] Sample pictures
+- [ ] Center text + arrow CTA
+- [ ] Import "PT Serif" font
+- [ ] Set content on Netlify CMS
+- [ ] Clean CSS
+- [ ] Fix header width

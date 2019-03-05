@@ -1,4 +1,5 @@
 <% content = data.pages.home.products %>
+<% products = data.products %>
 
 <section class="index-products">
   <div class="heading">
@@ -6,9 +7,9 @@
     <p class="large"><%= content.description %></p>
   </div>
   <ul>
-    <% data.products.each do |p| %>
+    <% products.each do |p| %>
     <% p = p[1] %>
-    <li style="--color: <%= p.color %>">
+    <li style="--product-color: <%= p.color %>">
       <div class="image">
         <img src="<%= p.image %>" alt="<%= p.title %>" />
       </div>
