@@ -6,12 +6,15 @@ media_folder: source/images
 public_folder: /images
 
 collections:
-  - name: header
+  - name: config
     label: En-tête
-    file: data/header.yml
-    fields:
-      - {label: Titre, name: title, widget: string}
-      - {label: Logo, name: logo, widget: image}
+    files:
+      - file: data/config/header.yml
+        label: En-tête
+        name: header
+        fields:
+          - {label: Titre, name: title, widget: string}
+          - {label: Logo, name: logo, widget: image}
   - name: products
     label: Produits
     folder: data/products
