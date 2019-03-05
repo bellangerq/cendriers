@@ -2,7 +2,10 @@ hero:
   image: /images/cendriers.png
   title: Adoptez un joli cendrier de poche fait maison !
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e.
+    Lorem ipsum dolor sit amet, **consectetur adipisicing** elit, sed do eiusmod tempor.
+
+
+    Incididunt ut labore et dolore magna aliqua. Ut enim ad minim *veniam*, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e.
 reasons:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
