@@ -32,10 +32,13 @@ The website is hosted on [Netlify](https://netlify.com). Every commit on `master
 - [x] Style hero paragraph
 - [x] Center text + arrow CTA
 - [x] Set content on Netlify CMS
-- [ ] Meta tags
+- [x] Meta tags
 - [ ] Guillemets around hero picture
+- [ ] Write real content
+- [ ] Create header logo (ashtray shape)
 - [ ] Clean CSS
 - [ ] Fix header width
+- [ ] Fix meta image (absolute url needed)
 
 ## Improvements
 
