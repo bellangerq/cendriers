@@ -1,14 +1,19 @@
 .index-hero {
   background: $color-white;
-  overflow: hidden;
 
   .wrapper {
+    align-items: center;
     display: grid;
     display: -ms-grid;
     grid-column-gap: 5rem;
     grid-template-columns: 1fr 1fr;
     padding: 11rem 3rem 7rem;
-    align-items: center;
+
+    .content {
+      p {
+        margin-top: 1.5rem;
+      }
+    }
   }
 }
 
@@ -19,7 +24,7 @@
       grid-template-columns: 1fr;
       padding: 5rem 1rem 1rem;
 
-      h1 {
+      .content {
         text-align: center;
       }
     }
