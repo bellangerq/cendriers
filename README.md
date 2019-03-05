@@ -31,7 +31,11 @@ The website is hosted on [Netlify](https://netlify.com). Every commit on `master
 - [x] Checkmark before reasons titles
 - [x] Style hero paragraph
 - [x] Center text + arrow CTA
-- [ ] Set content on Netlify CMS
+- [x] Set content on Netlify CMS
 - [ ] Guillemets around hero picture
 - [ ] Clean CSS
 - [ ] Fix header width
+
+## Improvements
+
+- [ ] Use markdown for text blocks
