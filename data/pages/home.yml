@@ -3,10 +3,10 @@ meta:
   description: Cendriers de poche fait maison
   image: /images/cendriers.png
 hero:
-  image: /images/cendriers.png
-  title: Adoptez un joli cendrier de poche fait maison !
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e.
+  image: /images/cendriers.png
+  title: Adoptez un joli cendrier de poche fait maison !
 reasons:
   description: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
@@ -28,12 +28,12 @@ reasons:
       title: Pratique
   title: Un cendrier de poche ?
 pictures:
-  - image: https://source.unsplash.com/random
-    title: 'Lorem ipsum'
-  - image: https://source.unsplash.com/random
-    title: 'Lorem ipsum'
-  - image: https://source.unsplash.com/random
-    title: 'Lorem ipsum'
+  - image: 'https://source.unsplash.com/random'
+    title: Lorem ipsum
+  - image: 'https://source.unsplash.com/random'
+    title: Lorem ipsum
+  - image: 'https://source.unsplash.com/random'
+    title: Lorem ipsum
 products:
   description: >-
     À chacun sa finition : choisissez le tissu à partir duquel sera confectionné
