@@ -28,7 +28,7 @@ The website is hosted on [Netlify](https://netlify.com). Every commit on `master
 ## To do
 
 - [x] Rotate header icon on hover / focus
-- [ ] Checkmark before reasons titles
+- [x] Checkmark before reasons titles
 - [ ] Guillemets around hero picture
 - [x] Style hero paragraph
 - [ ] Sample pictures

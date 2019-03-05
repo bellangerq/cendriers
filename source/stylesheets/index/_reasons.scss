@@ -3,11 +3,14 @@
   padding: 5rem 3rem;
 
   .wrapper {
-    text-align: center;
+    h2 {
+      text-align: center;
+    }
 
     > p {
       margin: 1.5rem auto 3rem;
       max-width: 30rem;
+      text-align: center;
     }
 
     ul {
@@ -18,14 +21,14 @@
       grid-template-columns: repeat(3, 1fr);
 
       li {
-        text-align: left;
-
-        img {
+        svg {
+          display: inline;
+          margin: 0 0.5rem -0.25rem -0.5rem;
           width: 2rem;
         }
 
         h3 {
-          margin-top: 1rem;
+          display: inline-block;
         }
 
         p {
