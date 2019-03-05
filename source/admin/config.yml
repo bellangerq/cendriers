@@ -7,7 +7,7 @@ public_folder: /images
 
 collections:
   - name: config
-    label: En-tête
+    label: Configuration
     files:
       - file: data/config/header.yml
         label: En-tête
