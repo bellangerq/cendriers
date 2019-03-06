@@ -1,30 +1,35 @@
 meta:
-  title: Les petits cendriers
-  description: Cendriers de poche fait maison
+  description: Cendriers de poche écologiques et fait maison.
   image: /images/cendriers.png
+  title: Les petits cendriers
 hero:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore e.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor. Incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+    esse cillum dolore e.
   image: /images/cendriers.png
-  title: Adoptez un joli cendrier de poche fait maison !
+  title: Adoptez un joli cendrier de poche écologique et fait maison !
 reasons:
   description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor
-    laoreet ex ultricies tempus. Sed mattis neque vel ex pulvinar, ut efficitur
-    risus commodo. Aliquam.
+    Il s'agit d'un petit sac pour y déposer mégots et cendre issus des
+    cigarettes (ou cigares). Ils sont fabriqués en tissu avec une poche en
+    aluminium à l'intérieur et un bouton pression pour la fermeture.
   features:
     - description: >-
-        Jeter son mégot par terre, c'est un peu nul comme attitude. Alors que
+        Jeter son mégot par terre, c'est un peu nul pour la planète. Alors que
         remplir son cendrier pour le jeter dans une poubelle, c'est mieux !
       title: Écologique
     - description: >-
-        Outre le fait que jeter son mégot par terre est passible d'amende, ça
-        n'est jamais très agréable pour soi et pour les autres d'en trouver dans
-        la rue ou ailleurs.
+        Ça n'est jamais très agréable d'avoir des mégots sous ses chaussures,
+        pas vrai ? Allez, un geste citoyen et une bonne action en les mettant au
+        fond d'un cendrier !
       title: Responsable
     - description: >-
-        On se retrouve bien embêté quand on a pas de quoi jeter son mégot.
-        L'avantage d'un cendrier de poche, c'est qu'on l'a toujours sur soi !
+        Sacré moment de malaise quand on ne sait pas où jeter son mégot.
+        L'avantage d'un cendrier de poche, c'est qu'on peut toujours l'avoir sur
+        soi !
       title: Pratique
   title: Un cendrier de poche ?
 pictures:
