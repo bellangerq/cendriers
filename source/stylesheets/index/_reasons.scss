@@ -3,14 +3,14 @@
   padding: 5rem 3rem;
 
   .wrapper {
-    h2 {
-      text-align: center;
-    }
-
-    > p {
-      margin: 1.5rem auto 3rem;
+    .heading {
+      margin: 0 auto;
       max-width: 30rem;
       text-align: center;
+
+      p {
+        margin: 1.5rem 0 3rem;
+      }
     }
 
     ul {
@@ -44,6 +44,11 @@
     padding: 3rem 1rem;
 
     .wrapper {
+      .heading {
+        max-width: none;
+        text-align: left;
+      }
+
       ul {
         grid-template-columns: 1fr;
       }

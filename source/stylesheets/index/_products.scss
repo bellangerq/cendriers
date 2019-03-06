@@ -1,11 +1,13 @@
 .index-products {
   padding: 5rem 3rem;
-  text-align: center;
 
   .heading {
+    margin: 0 auto;
+    max-width: 30rem;
+    text-align: center;
+
     p {
-      margin: 1.5rem auto 3rem;
-      max-width: 30rem;
+      margin: 1.5rem 0 3rem;
     }
   }
 
@@ -43,5 +45,10 @@
 @media (max-width: $breakpoint-mobile) {
   .index-products {
     padding: 3rem 1rem;
+
+    .heading {
+      max-width: none;
+      text-align: left;
+    }
   }
 }
