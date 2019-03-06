@@ -16,6 +16,8 @@ header {
     align-items: center;
     color: $color-main;
     display: inline-flex;
+    font-family: $font-serif;
+    font-size: $size-xl;
     text-decoration: none;
 
     &:hover, &:focus {
