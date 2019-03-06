@@ -14,6 +14,25 @@
         margin-top: 1.5rem;
       }
     }
+
+    .image {
+      color: rgba($color-main, 0.3);
+      position: relative;
+
+      svg {
+        left: -3.75rem;
+        position: absolute;
+        top: 0;
+        transform: rotate(-52deg);
+        width: 2.5rem;
+
+        &:last-child {
+          left: -0.625rem;
+          top: -1.5rem;
+          transform: rotate(4deg);
+        }
+      }
+    }
   }
 }
 
@@ -26,6 +45,12 @@
 
       .content {
         text-align: center;
+      }
+
+      .image {
+        svg {
+          display: none;
+        }
       }
     }
   }
