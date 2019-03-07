@@ -33,12 +33,12 @@ reasons:
       title: Pratique
   title: Un cendrier de poche ?
 pictures:
-  - image: 'https://source.unsplash.com/random'
-    title: Lorem ipsum
-  - image: 'https://source.unsplash.com/random'
-    title: Lorem ipsum
-  - image: 'https://source.unsplash.com/random'
-    title: Lorem ipsum
+  - image: /images/daria-nepriakhina-600234-unsplash.jpg
+    title: Terrasse équipée
+  - image: /images/neonbrand-349619-unsplash.jpg
+    title: Cigarette détente
+  - image: /images/robert-v-ruggiero-717795-unsplash.jpg
+    title: Cendrier d'extérieur
 products:
   description: >-
     À chacun sa finition : choisissez le tissu à partir duquel sera confectionné
